@@ -13,8 +13,13 @@ body {
   color: rgb(255, 255, 255);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 section {
-  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 b,
 h1,
@@ -46,27 +51,33 @@ a {
   margin: 50px;
   padding: 50px;
   text-align: center;
+  width: 50%;
 }
 
 span {
   color: aquamarine;
 }
 
-form div {
+form {
   margin: 20px;
+  width: 100%;
+}
+
+form div {
+  margin: 20px 0;
 }
 
 input,
 select,
 textarea {
   padding: 15px;
-  width: 50%;
+  width: 100%;
 }
 
 input:hover,
 select:hover,
 textarea:hover {
-  border-color: chartreuse;
+  border-color: white;
   border-width: 3px;
 }
 
@@ -76,7 +87,17 @@ h1 {
 
 form {
   background-color: aquamarine;
+  display: inline-block;
   text-align: center;
   border-radius: 50px;
   padding: 50px;
+}
+
+#button {
+  width: auto;
+  border-radius: 10px;
+}
+
+li {
+  text-align: left;
 }
