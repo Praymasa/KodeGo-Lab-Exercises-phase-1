@@ -7,26 +7,189 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img
-      src="./418721996_1592464291494487_5797726768065760027_n-removebg-preview.png"
-      align="right"
-      height="300"
-      style="padding-right: 200px"
-    />
-    <h1>More About Me</h1>
-    <p>
-      I am a mother of <b>2 girls</b> and <b>2 boys</b>. I currently residing in
-      Laguna but I originally came from Masbate where I spend most of my
-      childhood. Aside from being a <b>Mother</b>, an <b>Employee</b> and a
-      <b>Student</b> of KodeGo, I also do some activities like:
-    </p>
-    <ul>
-      <li>Motorcycle Riding</li>
-      <li>
-        I'm a music lover and love to listen to relax after a long hard day.
-      </li>
-      <li>I like to learn new things</li>
-    </ul>
+    <header>
+      <nav align="right">
+        <a href="#activities">Activities</a>
+        <a href="#media ">Media</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+    <section id="activities">
+      <h1>Weekly Activities</h1>
+      <table
+        border="colapse"
+        height="70vh"
+        align="center"
+        style="margin-top: 100px"
+      >
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>05:00am</td>
+            <td>Do a 10 minutes Physical Exercises</td>
+            <td></td>
+            <td></td>
+            <td>Do a 10 minutes Physical Exercises</td>
+            <td></td>
+            <td>It's time to bond with your Maching machine.</td>
+            <td>NO need to worry, It's your happy day in bed. Get up late.</td>
+          </tr>
+          <tr>
+            <td>12:00am</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Make a delicious pie</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>04:00pm</td>
+            <td></td>
+            <td></td>
+            <td>Do 2 hour coding exercise</td>
+            <td></td>
+            <td></td>
+            <td>Do 2 hour coding exercise</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>06:00pm</td>
+            <td></td>
+            <td></td>
+            <td>Cook something special for dinner</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Cook something special for dinner</td>
+          </tr>
+          <tr>
+            <td>08:00pm</td>
+            <td>Discord Mentoring by Sir Von</td>
+            <td>Discord Mentoring by Sir Von</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>10:00pm</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Movie Watch with Family, don't forget the popcorn.</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="media">
+      <h1>My Media Gallery</h1>
+      <div class="row">
+        <div class="column">
+          <video
+            src="./assets/422452805_7076235605763587_9076602927618321095_n.mp4"
+            controls
+            height="400"
+          ></video>
+          <dl>
+            <dt><b>Outdour Family Bonding</b></dt>
+            <dd>
+              This was the first ever outside bonding activity of our family
+              after being shut-in in the house due to pandemic situation.
+            </dd>
+          </dl>
+        </div>
+        <div class="column">
+          <video
+            src="./assets/422444038_7796479257046068_2787046238962096581_n.mp4"
+            controls
+            height="400"
+          ></video>
+          <dl>
+            <dt><b>Mama's 60th Birthday</b></dt>
+            <dd>
+              This was year 2019, this was the first time I made such surprise
+              for my mother.
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img
+            src="./assets/418786728_1087436912452096_1362838508937378386_n.jpg"
+            width="500"
+            height="300"
+          />
+          <dl>
+            <dt><b>My Precious Gifts</b></dt>
+            <dd>
+              Amonth ago after my youngest was born. I took my first photo with
+              my kids.
+            </dd>
+          </dl>
+        </div>
+        <div class="column">
+          <img
+            src="./assets/418929609_238831999268184_164090560861324694_n.jpg"
+            width="500"
+            height="300"
+          />
+          <dl>
+            <dt><b>My First Cosplay at wotk</b></dt>
+            <dd>
+              Year 2019 month of November, we had a Custume party at work and I
+              dressed as <span>Ruby</span> from the mobile game
+              <span>Mobile Legends</span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form>
+        <div>
+          <input type="text" placeholder="Enter Your Name" />
+        </div>
+        <div>
+          <select name="" id="">
+            <option value="">General Inquiry</option>
+            <option value="">Products and Services</option>
+            <option value="">Careers</option>
+          </select>
+        </div>
+        <div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div>
+          <input type="button" value="Sumbit" />
+        </div>
+      </form>
+    </section>
     <a href="./index.html">back</a>
+    <a href="./about.html">Top</a>
   </body>
 </html>
